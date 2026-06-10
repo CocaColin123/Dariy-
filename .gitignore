@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.tmp/
+.logs/
+screenshots/
+design-system/keyframes/
+*.zip
+server-out.log
+server-err.log
