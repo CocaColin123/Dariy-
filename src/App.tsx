@@ -4,6 +4,7 @@ import { Loader2, Server } from 'lucide-react';
 import type { DiaryConfig, DiaryEntry } from './types/diary';
 import { api } from './utils/api';
 import { encryptBody, isEncryptedBody } from './utils/crypto';
+import { SAMPLE_CONFIG, SAMPLE_ENTRIES } from './data/sampleData';
 // isEncryptedBody used in toggleDiaryLock
 import Sidebar from './panels/Sidebar';
 import ApiSettingsPanel from './panels/ApiSettingsPanel';
